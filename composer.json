@@ -1,0 +1,45 @@
+{
+  "name": "n7olkachev/laravel-computed-properties",
+  "description": "Model attributes on steroids",
+  "homepage": "https://github.com/n7olkachev/laravel-attributes-schema",
+  "keywords":
+  [
+    "laravel",
+    "eloquent",
+    "attributes",
+    "default",
+    "valiation"
+  ],
+  "authors": [
+    {
+      "name": "Nikita Tolkachev",
+      "email": "n7olkachev@gmail.com",
+      "homepage": "https://n7olkachev.github.io",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php" : "^7.0",
+    "illuminate/database": "~5.4.0|~5.5.0|~5.6.0",
+    "illuminate/support": "~5.4.0|~5.5.0|~5.6.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "~3.3.0|~3.4.0",
+    "orchestra/database": "~3.3.0|~3.4.0",
+    "phpunit/phpunit": "^7.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "N7olkachev\\AttributesSchema\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "N7olkachev\\AttributesSchema\\Test\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit"
+  },
+  "license": "MIT"
+}
